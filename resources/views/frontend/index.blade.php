@@ -12,7 +12,7 @@
     <title>Cerpen Kita</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/frontend/img/core-img/cultures.png">
+    <link rel="icon" href="assets/frontend/img/core-img/c.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="assets/frontend/style.css">
@@ -30,7 +30,7 @@
                     <nav class="classy-navbar justify-content-between" id="nikkiNav">
 
                         <!-- Nav brand -->
-                        <a href="index.blade.php" class="nav-brand"><img src="assets/frontend/img/core-img/logo.png" alt=""></a>
+                        <a href="index.blade.php" class="nav-brand"><img src="assets/frontend/img/core-img/c.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -82,24 +82,7 @@
                                                 <li><a href="#">- Breakfast</a></li>
                                                 <li><a href="#">- Meat</a></li>
                                             </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="#">- Features</a></li>
-                                                <li><a href="#">- Food</a></li>
-                                                <li><a href="#">- Travel</a></li>
-                                                <li><a href="#">- Recipe</a></li>
-                                                <li><a href="#">- Bread</a></li>
-                                                <li><a href="#">- Breakfast</a></li>
-                                                <li><a href="#">- Meat</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="#">- Features</a></li>
-                                                <li><a href="#">- Food</a></li>
-                                                <li><a href="#">- Travel</a></li>
-                                                <li><a href="#">- Recipe</a></li>
-                                                <li><a href="#">- Bread</a></li>
-                                                <li><a href="#">- Breakfast</a></li>
-                                                <li><a href="#">- Meat</a></li>
-                                            </ul>
+
                                         </div>
                                     </li>
                                     <li><a href="about.blade.php">About</a></li>
@@ -191,13 +174,13 @@
             <!-- Single Hero Post -->
             <div class="single-hero-post d-flex flex-wrap">
                 <!-- Post Thumbnail -->
-                <div class="slide-post-thumbnail h-100 bg-img" style="background-image: url(assets/frontend/img/blog-img/jtt.jpg);"></div>
+                <div class="slide-post-thumbnail h-100 bg-img" style="background-image: url(assets/frontend/img/blog-img/kiam.gif);"></div>
                 <!-- Post Content -->
                 <div class="slide-post-content h-100 d-flex align-items-center">
                     <div class="slide-post-text">
-                        <p class="post-date" data-animation="fadeIn" data-delay="100ms">Cerpen Horor</p>
+                        <p class="post-date" data-animation="fadeIn" data-delay="100ms">Cerpen Religi</p>
                         <a href="#" class="post-title" data-animation="fadeIn" data-delay="300ms">
-                            <h2>Jembatan Tua Ituuu..</h2>
+                            <h2>Kiamat Sudah Dekat...</h2>
                         </a>
                         <p class="post-excerpt" data-animation="fadeIn" data-delay="500ms">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                         <a href="#" class="btn nikki-btn" data-animation="fadeIn" data-delay="700ms">Baca Yuuuuk!</a>
@@ -249,7 +232,7 @@
                                 <div class="single-blog-post mb-50">
                                     <!-- Thumbnail -->
                                     <div class="post-thumbnail">
-                                        <a href="#"><img src="assets/frontend/img/blog-img/1.jpg" alt=""></a>
+                                        <a href="#"><img src="assets/frontend/img/blog-img/stt.jpeg" alt=""></a>
                                     </div>
                                     <!-- Content -->
                                     <div class="post-content">
@@ -285,7 +268,7 @@
                                 <div class="single-blog-post mb-50">
                                     <!-- Thumbnail -->
                                     <div class="post-thumbnail">
-                                        <a href="#"><img src="assets/frontend/img/blog-img/3.jpg" alt=""></a>
+                                        <a href="#"><img src="assets/frontend/img/blog-img/broken.jpg" alt=""></a>
                                     </div>
                                     <!-- Content -->
                                     <div class="post-content">
@@ -303,7 +286,7 @@
                                 <div class="single-blog-post mb-50">
                                     <!-- Thumbnail -->
                                     <div class="post-thumbnail">
-                                        <a href="#"><img src="assets/frontend/img/blog-img/4.jpg" alt=""></a>
+                                        <a href="#"><img src="assets/frontend/img/blog-img/kiam.gif" alt=""></a>
                                     </div>
                                     <!-- Content -->
                                     <div class="post-content">
@@ -321,13 +304,13 @@
                                 <div class="single-blog-post mb-50">
                                     <!-- Thumbnail -->
                                     <div class="post-thumbnail">
-                                        <a href="#"><img src="assets/frontend/img/blog-img/5.jpg" alt=""></a>
+                                        <a href="#"><img src="assets/frontend/img/blog-img/ay.jpg" alt=""></a>
                                     </div>
                                     <!-- Content -->
                                     <div class="post-content">
                                         <p class="post-date">JANUARI, 2020 / Cerpen Kita Mengharukan</p>
                                         <a href="#" class="post-title">
-                                            <h4>7Ayahku PahlawanKu</h4>
+                                            <h4>Ayahku PahlawanKu</h4>
                                         </a>
                                         <p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     </div>
@@ -339,7 +322,7 @@
                                 <div class="single-blog-post mb-50">
                                     <!-- Thumbnail -->
                                     <div class="post-thumbnail">
-                                        <a href="#"><img src="assets/frontend/img/blog-img/6.jpg" alt=""></a>
+                                        <a href="#"><img src="assets/frontend/img/blog-img/pt.png" alt=""></a>
                                     </div>
                                     <!-- Content -->
                                     <div class="post-content">
@@ -374,7 +357,7 @@
                             </div>
                             <!-- Thumbnail -->
                             <div class="about-thumbnail">
-                                <img src="assets/frontend/img/blog-img/about-me.jpg" alt="">
+                                <img src="assets/frontend/img/blog-img/about-mee.jpg" alt="">
                             </div>
                             <!-- Content -->
                             <div class="widget-content text-center">
@@ -411,7 +394,7 @@
                             <!-- Single Latest Posts -->
                             <div class="single-latest-post d-flex">
                                 <div class="post-thumb">
-                                    <img src="assets/frontend/img/blog-img/lp1.jpg" alt="">
+                                    <img src="assets/frontend/img/blog-img/hs.jpg" alt="">
                                 </div>
                                 <div class="post-content">
                                     <a href="#" class="post-title">
@@ -424,7 +407,7 @@
                             <!-- Single Latest Posts -->
                             <div class="single-latest-post d-flex">
                                 <div class="post-thumb">
-                                    <img src="assets/frontend/img/blog-img/lp2.jpg" alt="">
+                                    <img src="assets/frontend/img/blog-img/pt.png" alt="">
                                 </div>
                                 <div class="post-content">
                                     <a href="#" class="post-title">
@@ -437,7 +420,7 @@
                             <!-- Single Latest Posts -->
                             <div class="single-latest-post d-flex">
                                 <div class="post-thumb">
-                                    <img src="assets/frontend/img/blog-img/lp3.jpg" alt="">
+                                    <img src="assets/frontend/img/blog-img/cs.jpg" alt="">
                                 </div>
                                 <div class="post-content">
                                     <a href="#" class="post-title">
@@ -450,7 +433,7 @@
                             <!-- Single Latest Posts -->
                             <div class="single-latest-post d-flex">
                                 <div class="post-thumb">
-                                    <img src="assets/frontend/img/blog-img/lp4.jpg" alt="">
+                                    <img src="assets/frontend/img/blog-img/adc.jpg" alt="">
                                 </div>
                                 <div class="post-content">
                                     <a href="#" class="post-title">
@@ -463,7 +446,7 @@
                             <!-- Single Latest Posts -->
                             <div class="single-latest-post d-flex">
                                 <div class="post-thumb">
-                                    <img src="assets/frontend/img/blog-img/lp5.jpg" alt="">
+                                    <img src="assets/frontend/img/blog-img/ibutiri.jpg" alt="">
                                 </div>
                                 <div class="post-content">
                                     <a href="#" class="post-title">
