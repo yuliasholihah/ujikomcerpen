@@ -51,10 +51,10 @@
                                     <li><a href="./index">Home</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.blade.php">Home</a></li>
+                                            <li><a href="./index">Home</a></li>
                                             <li><a href="archive-blog.html">Archive Blog</a></li>
                                             <li><a href="single-post.html">Single Post</a></li>
-                                            <li><a href="about.blade.php">About</a></li>
+                                            <li><a href="./about">About</a></li>
                                             <li><a href="./kontak">Contact</a></li>
                                             <li><a href="typography.html">Typography</a></li>
                                         </ul>
@@ -125,7 +125,7 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="./index"><i class="fa fa-home"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">About</li>
+                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
                         </ol>
                     </nav>
                 </div>
@@ -134,51 +134,45 @@
     </div>
     <!-- ##### Breadcrumb Area End ##### -->
 
-    <div class="about-us-area section-padding-0-100">
+    <!-- ##### Google Maps Start ##### -->
+
+    <!-- ##### Google Maps End ##### -->
+
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-area section-padding-100-0">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="about-content">
-                        <!-- Section Heading -->
-                        <div class="section-heading text-center">
-                            <h2>About Us</h2>
-                            <p>Selamat Datang Di Website "Cerpen Kita" </p>
+              <center>
+                <div class="col-12 col-lg-6">
+                    <div class="contact-content mb-100">
+                        <h4>Kontak kami</h4>
+                        <p>Apabila ada masukan atau kritik atau mungkin ada ketidaknyamanan anda bisa menghubungi nomor dibawah ini atau email dibawah ini . Terima Kasih.</p>
+                        <!-- Single Contact Info -->
+                        <div class="single-contact-info">
+                            <h6>Lokasi:</h6>
+                            <h4>Jalan Nusa Baru No 172,Bandung</h4>
                         </div>
 
-
-                        <div class="about-text">
-                            <p>Website "Cerpen Kita" bertujuan untuk meningkatkan minat baca di semua kalangan terutama kalangan generasi milenial contohnya anak SD,SMP,SMP dan Perguruan Tinggi Sekalipun.</p>
-                            <p>UNESCO menyebutkan Indonesia urutan kedua dari bawah soal literasi dunia, artinya minat baca sangat rendah. Menurut data UNESCO, minat baca masyarakat Indonesia sangat memprihatinkan, hanya 0,001%. Artinya, dari 1,000 orang Indonesia, cuma 1 orang yang rajin membaca!,Jangan sampai...</p>
-                            <blockquote>
-                                <div class="blockquote-icon">
-                                    <img src="assets/frontend/img/core-img/quote.png" alt="">
-                                </div>
-                                <div class="blockquote-text">
-                                    <h5>“Malas Baca Tapi Cerewet di Medsos”..</h5>
-                                </div>
-                                <div class="blockquote-icon">
-                                    <img src="assets/frontend/img/core-img/quote.png" alt="">
-                                </div>
-                            </blockquote>
-                            <p>Riset berbeda bertajuk World’s Most Literate Nations Ranked yang dilakukan oleh Central Connecticut State Univesity pada Maret 2016 lalu, Indonesia dinyatakan menduduki peringkat ke-60 dari 61 negara soal minat membaca, persis berada di bawah Thailand (59) dan di atas Bostwana (61). Padahal, dari segi penilaian infrastuktur untuk mendukung membaca, peringkat Indonesia berada di atas negara-negara Eropa.
-
-
-
-                                Fakta kedua, 60 juta penduduk Indonesia memiliki gadget, atau urutan kelima dunia terbanyak kepemilikan gadget. Lembaga riset digital marketing Emarketer memperkirakan pada 2018 jumlah pengguna aktif smartphone di Indonesia lebih dari 100 juta orang. Dengan jumlah sebesar itu, Indonesia akan menjadi negara dengan pengguna aktif smartphone terbesar keempat di dunia setelah Cina, India, dan Amerika.
-
-
-
-                                Ironisnya, meski minat baca buku rendah tapi data wearesocial per Januari 2017 mengungkap orang Indonesia bisa menatap layar gadget kurang lebih 9 jam sehari. Tidak heran dalam hal kecerewetan di media sosial orang Indonesia berada di urutan ke 5 dunia. Juara deh. Jakarta lah kota paling cerewet di dunia maya karena sepanjang hari, aktivitas kicauan dari akun Twitter yang berdomisili di ibu kota Indonesia ini paling padat melebihi Tokyo dan New York. Laporan ini berdasarkan hasil riset Semiocast, sebuah lembaga independen di Paris maka dari itu Website kami sedikit demi sedikit akan meningkatkan minat baca di indonesia.</p>
+                        <!-- Single Contact Info -->
+                        <div class="single-contact-info">
+                            <h6>Email:</h6>
+                            <h4>yuliasholihah1234@gmail.com</h4>
                         </div>
 
-
-
-
+                        <!-- Single Contact Info -->
+                        <div class="single-contact-info">
+                            <h6>Telepon:</h6>
+                            <h4>(+628) 888 090 9090</h4>
+                        </div>
                     </div>
                 </div>
+              </center>
+
+
             </div>
         </div>
-    </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
 
     <!-- ##### Instagram Area Start ##### -->
     <div class="follow-us-instagram">
@@ -196,7 +190,7 @@
                 <a href="#"><i class="fa fa-instagram"></i></a>
             </div>
 
-            <!-- Single Instagram Slide -->
+            <!-- Single InstagramSlide -->
             <div class="single-instagram">
                 <img src="assets/frontend/img/blog-img/insta3.jpg" alt="">
                 <a href="#"><i class="fa fa-instagram"></i></a>
@@ -241,7 +235,17 @@
             <div class="row">
                 <div class="col-12">
                     <!-- Footer Social Info -->
-
+                    <div class="footer-social-info d-flex align-items-center justify-content-between">
+                        <a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+                        <a href="#"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+                        <a href="#"><i class="fa fa-google-plus"></i><span>Google +</span></a>
+                        <a href="#"><i class="fa fa-linkedin"></i><span>linkedin</span></a>
+                        <a href="#"><i class="fa fa-instagram"></i><span>Instagram</span></a>
+                        <a href="#"><i class="fa fa-vimeo"></i><span>Vimeo</span></a>
+                        <a href="#"><i class="fa fa-youtube"></i><span>Youtube</span></a>
+                    </div>
+                </div>
+            </div>
 
             <div class="row">
                 <div class="col-12">

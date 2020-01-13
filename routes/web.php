@@ -20,6 +20,9 @@ Route::get('/index', function () {
 Route::get('/about', function () {
     return view('frontend.about');
 });
+Route::get('/kontak', function () {
+    return view('frontend.kontak');
+});
 
 
 
