@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="assets/frontend/Login/login/images/icons/favicon.ico"/>
+
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="assets/frontend/Login/login/vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -30,7 +30,7 @@
 			<div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30">
 				<form class="login100-form validate-form">
 					<span class="login100-form-title p-b-55">
-						Login
+						Silahkan Login
 					</span>
 
 					<div class="wrap-input100 validate-input m-b-16" data-validate = "Valid email is required: ex@abc.xyz">
@@ -65,11 +65,11 @@
 
 					<div class="text-center w-full p-t-115">
 						<span class="txt1">
-							Not a member?
+							Tidak Ingat Akun?
 						</span>
 
-						<a class="txt1 bo1 hov1" href="#">
-							Sign up
+						<a class="txt1 bo1 hov1" href="./register">
+							Register
 						</a>
 					</div>
 				</form>

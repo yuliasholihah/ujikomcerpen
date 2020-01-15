@@ -23,6 +23,12 @@ Route::get('/about', function () {
 Route::get('/kontak', function () {
     return view('frontend.kontak');
 });
+Route::get('/login', function () {
+    return view('frontend.login');
+});
+Route::get('/register', function () {
+    return view('frontend.register');
+});
 
 
 

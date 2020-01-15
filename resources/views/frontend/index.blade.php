@@ -362,7 +362,8 @@
                             <!-- Content -->
                             <div class="widget-content text-center">
                                 <img src="assets/frontend/img/core-img/signature.png" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ipsum adipisicing</p>
+                                <p>Website "Cerpen Kita" bertujuan untuk meningkatkan minat baca di semua kalangan terutama kalangan generasi milenial contohnya anak SD,SMP,SMP dan Perguruan Tinggi Sekalipun.</p>
+                            <p>UNESCO menyebutkan Indonesia...</p>
                             </div>
                         </div>
 
