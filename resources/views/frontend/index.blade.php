@@ -460,10 +460,10 @@
                         </div>
 
                         <!-- ##### Single Widget Area ##### -->
-                        <div class="single-widget-area mb-30">
+                        {{-- <div class="single-widget-area mb-30">
                             <!-- Adds -->
                             <a href="#"><img src="assets/frontend/img/blog-img/add.png" alt=""></a>
-                        </div>
+                        </div> --}}
 
 
                         <!-- ##### Single Widget Area ##### -->
