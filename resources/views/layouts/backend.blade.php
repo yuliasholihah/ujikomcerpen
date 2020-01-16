@@ -289,17 +289,15 @@
                 <a href="#"><i class="icon_clock_alt"></i> Timeline</a>
               </li>
               <li>
-                <a href="#"><i class="icon_chat_alt"></i> Chats</a>
+                <a href="{{ route('logout')}}" onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();"
+                style="margin-left: 20px;"><i class="dropdown-item-icon icon-power text-primary"></i><span class="d-none d-sm-inline">{{__('Logout')}}</span></a>
+              </div>
+              <form action="{{route('logout')}}" id="logout-form" method="POST" style="display: none;">
+            @csrf
+            </form>
               </li>
-              <li>
-                <a href="./login"><i class="icon_key_alt"></i> Log Out</a>
-              </li>
-              <li>
-                <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
-              </li>
-              <li>
-                <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
-              </li>
+
             </ul>
           </li>
           <!-- user login dropdown end -->

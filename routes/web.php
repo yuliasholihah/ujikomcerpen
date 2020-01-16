@@ -35,3 +35,7 @@ Route::get('/register', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['prefix'=>'backend', 'middleware'=>['auth']], function(){
+    Route::resource('/home', 'backendController');
+});
