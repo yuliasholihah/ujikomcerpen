@@ -224,7 +224,7 @@
           <!-- inbox notificatoin end -->
           <!-- alert notification start-->
           <li id="alert_notificatoin_bar" class="dropdown">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+            {{-- <a data-toggle="dropdown" class="dropdown-toggle" href="#">
 
                             <i class="icon-bell-l"></i>
                             <span class="badge bg-important">7</span>
@@ -266,20 +266,20 @@
                 <a href="#">See all notifications</a>
               </li>
             </ul>
-          </li>
+          </li> --}}
           <!-- alert notification end-->
           <!-- user login dropdown start-->
           <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="profile-ava">
+                            {{-- <span class="profile-ava">
                                 <img alt="" src="assets/backend/backend/img/avatar1_small.jpg">
-                            </span>
-                            <span class="username">Jenifer Smith</span>
+                            </span> --}}
+                            <span class="username"></span>
                             <b class="caret"></b>
                         </a>
             <ul class="dropdown-menu extended logout">
               <div class="log-arrow-up"></div>
-              <li class="eborder-top">
+              {{-- <li class="eborder-top">
                 <a href="#"><i class="icon_profile"></i> My Profile</a>
               </li>
               <li>
@@ -287,7 +287,7 @@
               </li>
               <li>
                 <a href="#"><i class="icon_clock_alt"></i> Timeline</a>
-              </li>
+              </li> --}}
               <li>
                 <a href="{{ route('logout')}}" onclick="event.preventDefault();
                 document.getElementById('logout-form').submit();"

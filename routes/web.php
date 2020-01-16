@@ -12,11 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/index', function () {
     return view('frontend.index');
 });
+// Route::get('/index', function () {
+//     return view('frontend.index');
+// });
 Route::get('/about', function () {
     return view('frontend.about');
 });
