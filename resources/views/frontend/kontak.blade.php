@@ -49,7 +49,7 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="./index">Home</a></li>
-                                    <li><a href="#">Pages</a>
+                                    {{-- <li><a href="#">Pages</a>
                                         <ul class="dropdown">
                                             <li><a href="./index">Home</a></li>
                                             <li><a href="archive-blog.html">Archive Blog</a></li>
@@ -58,8 +58,8 @@
                                             <li><a href="./kontak">Contact</a></li>
                                             <li><a href="typography.html">Typography</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="#">Catagories</a>
+                                    </li> --}}
+                                    <li><a href="#">Kategori</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="#">- cerpen horor</a></li>
@@ -73,7 +73,7 @@
                                                 <li><a href="#">- cerpen nasihat</a></li>
                                                 <li><a href="#">- cerpen mengharukan</a></li>
                                             </ul>
-                                            <ul class="single-mega cn-col-4">
+                                            {{-- <ul class="single-mega cn-col-4">
                                                 <li><a href="#">- Features</a></li>
                                                 <li><a href="#">- Food</a></li>
                                                 <li><a href="#">- Travel</a></li>
@@ -81,7 +81,7 @@
                                                 <li><a href="#">- Bread</a></li>
                                                 <li><a href="#">- Breakfast</a></li>
                                                 <li><a href="#">- Meat</a></li>
-                                            </ul>
+                                            </ul> --}}
                                             <ul class="single-mega cn-col-4">
 
                                         </div>
