@@ -36,6 +36,14 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::group(['prefix'=>'backend', 'middleware'=>['auth']], function(){
-    Route::resource('/home', 'backendController');
-});
+// Route::group(['prefix'=>'backend', 'middleware'=>['auth']], function(){
+//     Route::resource('/home', 'backendController');
+// });
+
+Route::group(['prefix'=>'admin','middleware'=>['auth']],
+function () {
+
+    route::resource('kategori','KategoriController');
+    route::resource('penulis','PenulisController');
+}
+);

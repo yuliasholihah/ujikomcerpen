@@ -7,33 +7,33 @@
   <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
   <meta name="author" content="GeeksLabs">
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
-  <link rel="shortcut icon" href="assets/backend/backend/img/favicon.png">
+  <link rel="shortcut icon" href="/assets/backend/backend/img/favicon.png">
 
   <title>Admin</title>
 
   <!-- Bootstrap CSS -->
-  <link href="assets/backend/backend/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/backend/backend/css/bootstrap.min.css" rel="stylesheet">
   <!-- bootstrap theme -->
-  <link href="assets/backend/backend/css/bootstrap-theme.css" rel="stylesheet">
+  <link href="/assets/backend/backend/css/bootstrap-theme.css" rel="stylesheet">
   <!--external css-->
   <!-- font icon -->
-  <link href="assets/backend/backend/css/elegant-icons-style.css" rel="stylesheet" />
-  <link href="assets/backend/backend/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="/assets/backend/backend/css/elegant-icons-style.css" rel="stylesheet" />
+  <link href="/assets/backend/backend/css/font-awesome.min.css" rel="stylesheet" />
   <!-- full calendar css-->
-  <link href="assets/backend/backend/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
-  <link href="assets/backend/backend/assets/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" />
+  <link href="/assets/backend/backend/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
+  <link href="/assets/backend/backend/assets/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" />
   <!-- easy pie chart-->
-  <link href="assets/backend/backend/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="/assets/backend/backend/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen" />
   <!-- owl carousel -->
   <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-  <link href="assets/backend/backend/css/jquery-jvectormap-1.2.2.css" rel="stylesheet">
+  <link href="/assets/backend/backend/css/jquery-jvectormap-1.2.2.css" rel="stylesheet">
   <!-- Custom styles -->
-  <link rel="stylesheet" href="assets/backend/backend/css/fullcalendar.css">
-  <link href="assets/backend/backend/css/widgets.css" rel="stylesheet">
-  <link href="assets/backend/backend/css/style.css" rel="stylesheet">
-  <link href="assets/backend/backend/css/style-responsive.css" rel="stylesheet" />
-  <link href="assets/backend/backend/css/xcharts.min.css" rel=" stylesheet">
-  <link href="assets/backend/backend/css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/backend/backend/css/fullcalendar.css">
+  <link href="/assets/backend/backend/css/widgets.css" rel="stylesheet">
+  <link href="/assets/backend/backend/css/style.css" rel="stylesheet">
+  <link href="/assets/backend/backend/css/style-responsive.css" rel="stylesheet" />
+  <link href="/assets/backend/backend/css/xcharts.min.css" rel=" stylesheet">
+  <link href="/assets/backend/backend/css/jquery-ui-1.10.4.min.css" rel="stylesheet">
   <!-- =======================================================
     Theme Name: NiceAdmin
     Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
@@ -56,17 +56,7 @@
       <a href="index.html" class="logo">Nice <span class="lite">Admin</span></a>
       <!--logo end-->
 
-      <div class="nav search-row" id="top_menu">
-        <!--  search form start -->
-        <ul class="nav top-menu">
-          <li>
-            <form class="navbar-form">
-              <input class="form-control" placeholder="Search" type="text">
-            </form>
-          </li>
-        </ul>
-        <!--  search form end -->
-      </div>
+
 
       <div class="top-nav notification-row">
         <!-- notificatoin dropdown start-->
@@ -74,10 +64,7 @@
 
           <!-- task notificatoin start -->
           <li id="task_notificatoin_bar" class="dropdown">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <i class="icon-task-l"></i>
-                            <span class="badge bg-important">6</span>
-                        </a>
+
             <ul class="dropdown-menu extended tasks-bar">
               <div class="notify-arrow notify-arrow-blue"></div>
               <li>
@@ -159,10 +146,7 @@
           <!-- task notificatoin end -->
           <!-- inbox notificatoin start-->
           <li id="mail_notificatoin_bar" class="dropdown">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <i class="icon-envelope-l"></i>
-                            <span class="badge bg-important">5</span>
-                        </a>
+
             <ul class="dropdown-menu extended inbox">
               <div class="notify-arrow notify-arrow-blue"></div>
               <li>
@@ -272,7 +256,7 @@
           <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             {{-- <span class="profile-ava">
-                                <img alt="" src="assets/backend/backend/img/avatar1_small.jpg">
+                                <img alt="" src="/assets/backend/backend/img/avatar1_small.jpg">
                             </span> --}}
                             <span class="username"></span>
                             <b class="caret"></b>
@@ -312,49 +296,10 @@
       <div id="sidebar" class="nav-collapse ">
         <!-- sidebar menu start-->
         <ul class="sidebar-menu">
-          <li class="active">
-            <a class="" href="index.html">
-                          <i class="icon_house_alt"></i>
-                          <span>Dashboard</span>
-                      </a>
-          </li>
-          <li class="sub-menu">
-            <a href="javascript:;" class="">
-                          <i class="icon_document_alt"></i>
-                          <span>Forms</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
-                      </a>
-            <ul class="sub">
-              <li><a class="" href="form_component.html">Form Elements</a></li>
-              <li><a class="" href="form_validation.html">Form Validation</a></li>
-            </ul>
-          </li>
-          <li class="sub-menu">
-            <a href="javascript:;" class="">
-                          <i class="icon_desktop"></i>
-                          <span>UI Fitures</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
-                      </a>
-            <ul class="sub">
-              <li><a class="" href="general.html">Elements</a></li>
-              <li><a class="" href="buttons.html">Buttons</a></li>
-              <li><a class="" href="grids.html">Grids</a></li>
-            </ul>
-          </li>
-          <li>
-            <a class="" href="widgets.html">
-                          <i class="icon_genius"></i>
-                          <span>Widgets</span>
-                      </a>
-          </li>
-          <li>
-            <a class="" href="frontend/backend/backend/chart-chartjs.html">
-                          <i class="icon_piechart"></i>
-                          <span>Charts</span>
 
-                      </a>
 
-          </li>
+
+
 
           <li class="sub-menu">
             <a href="javascript:;" class="">
@@ -363,24 +308,12 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
-              <li><a class="" href="basic_table.html">Basic Table</a></li>
+              <li><a class="" href="/admin/kategori">Kategori</a></li>
+              <li><a class="" href="/admin/penulis">Penulis</a></li>
             </ul>
           </li>
 
-          <li class="sub-menu">
-            <a href="javascript:;" class="">
-                          <i class="icon_documents_alt"></i>
-                          <span>Pages</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
-                      </a>
-            <ul class="sub">
-              <li><a class="" href="profile.html">Profile</a></li>
-              <li><a class="" href="login.html"><span>Login Page</span></a></li>
-              <li><a class="" href="contact.html"><span>Contact Page</span></a></li>
-              <li><a class="" href="blank.html">Blank Page</a></li>
-              <li><a class="" href="404.html">404 Error</a></li>
-            </ul>
-          </li>
+
 
         </ul>
         <!-- sidebar menu end-->
@@ -392,172 +325,51 @@
     <section id="main-content">
       <section class="wrapper">
         <!--overview start-->
-        <div class="row">
-          <div class="col-lg-12">
-            <h3 class="page-header"><i class="fa fa-laptop"></i> Dashboard</h3>
-            <ol class="breadcrumb">
-              <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
-              <li><i class="fa fa-laptop"></i>Dashboard</li>
-            </ol>
-          </div>
-        </div>
-
-        <div class="row">
-
-            <!--/.info-box-->
-          </div>
-          <!--/.col-->
 
 
-            <!--/.info-box-->
-          </div>
-          <!--/.col-->
-
-        </div>
-        <!--/.row-->
-
-
-        <div class="row">
-          {{-- <div class="col-lg-9 col-md-12">
-
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h2><i class="fa fa-map-marker red"></i><strong>Countries</strong></h2>
-                <div class="panel-actions">
-                  <a href="index.html#" class="btn-setting"><i class="fa fa-rotate-right"></i></a>
-                  <a href="index.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
-                  <a href="index.html#" class="btn-close"><i class="fa fa-times"></i></a>
-                </div>
-              </div>
-              <div class="panel-body-map">
-                <div id="map" style="height:380px;"></div>
-              </div>
-
-            </div>
-          </div> --}}
-          {{-- <div class="col-md-3">
-            <!-- List starts -->
-            <ul class="today-datas">
-              <!-- List #1 -->
-              <li>
-                <!-- Graph -->
-                <div><span id="todayspark1" class="spark"></span></div>
-                <!-- Text -->
-                <div class="datas-text">11,500 visitors/day</div>
-              </li>
-              <li>
-                <div><span id="todayspark2" class="spark"></span></div>
-                <div class="datas-text">15,000 Pageviews</div>
-              </li>
-              <li>
-                <div><span id="todayspark3" class="spark"></span></div>
-                <div class="datas-text">30.55% Bounce Rate</div>
-              </li>
-              <li>
-                <div><span id="todayspark4" class="spark"></span></div>
-                <div class="datas-text">$16,00 Revenue/Day</div>
-              </li>
-              <li>
-                <div><span id="todayspark5" class="spark"></span></div>
-                <div class="datas-text">12,000000 visitors every Month</div>
-              </li>
-            </ul>
-          </div> --}}
-
-
-        </div>
-
-
-        <!-- Today status end -->
-
-
-
-        <div class="row">
-
-
-          <!--/col-->
-
-
-            <!--Project Activity end-->
-
-                      <!-- Buttons -->
-                      <div class="form-group">
-                        <!-- Buttons -->
-
-                      </div>
-                    </form>
-                  </div>
-
-
-                </div>
-                <div class="widget-foot">
-                  <!-- Footer goes here -->
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-        <!-- project team & activity end -->
-
-      </section>
-      <div class="text-right">
-        <div class="credits">
-          <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version form: https://bootstrapmade.com/buy/?theme=NiceAdmin
-          -->
-        </div>
-      </div>
-    </section>
-    <!--main content end-->
-  </section>
-  <!-- container section start -->
+     @yield('content')
 
   <!-- javascripts -->
-  <script src="assets/backend/backend/js/jquery.js"></script>
-  <script src="assets/backend/backend/js/jquery-ui-1.10.4.min.js"></script>
-  <script src="assets/backend/backend/js/jquery-1.8.3.min.js"></script>
+  <script src="/assets/backend/backend/js/jquery.js"></script>
+  <script src="/assets/backend/backend/js/jquery-ui-1.10.4.min.js"></script>
+  <script src="/assets/backend/backend/js/jquery-1.8.3.min.js"></script>
   <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
   <!-- bootstrap -->
-  <script src="assets/backend/backend/js/bootstrap.min.js"></script>
+  <script src="/assets/backend/backend/js/bootstrap.min.js"></script>
   <!-- nice scroll -->
-  <script src="assets/backend/backend/js/jquery.scrollTo.min.js"></script>
-  <script src="assets/backend/backend/js/jquery.nicescroll.js" type="text/javascript"></script>
+  <script src="/assets/backend/backend/js/jquery.scrollTo.min.js"></script>
+  <script src="/assets/backend/backend/js/jquery.nicescroll.js" type="text/javascript"></script>
   <!-- charts scripts -->
-  <script src="assets/backend/backend/assets/jquery-knob/js/jquery.knob.js"></script>
-  <script src="assets/backend/backend/js/jquery.sparkline.js" type="text/javascript"></script>
-  <script src="assets/backend/backend/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
-  <script src="assets/backend/backend/js/owl.carousel.js"></script>
+  <script src="/assets/backend/backend/assets/jquery-knob/js/jquery.knob.js"></script>
+  <script src="/assets/backend/backend/js/jquery.sparkline.js" type="text/javascript"></script>
+  <script src="/assets/backend/backend/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
+  <script src="/assets/backend/backend/js/owl.carousel.js"></script>
   <!-- jQuery full calendar -->
-  <<script src="assets/backend/backend/js/fullcalendar.min.js"></script>
+  <<script src="/assets/backend/backend/js/fullcalendar.min.js"></script>
     <!-- Full Google Calendar - Calendar -->
-    <script src="assets/backend/backend/assets/fullcalendar/fullcalendar/fullcalendar.js"></script>
+    <script src="/assets/backend/backend/assets/fullcalendar/fullcalendar/fullcalendar.js"></script>
     <!--script for this page only-->
-    <script src="assets/backend/backend/js/calendar-custom.js"></script>
-    <script src="assets/backend/backend/js/jquery.rateit.min.js"></script>
+    <script src="/assets/backend/backend/js/calendar-custom.js"></script>
+    <script src="/assets/backend/backend/js/jquery.rateit.min.js"></script>
     <!-- custom select -->
-    <script src="assets/backend/backend/js/jquery.customSelect.min.js"></script>
-    <script src="assets/backend/backend/chart-master/Chart.js"></script>
+    <script src="/assets/backend/backend/js/jquery.customSelect.min.js"></script>
+    <script src="/assets/backend/backend/chart-master/Chart.js"></script>
 
     <!--custome script for all page-->
-    <script src="assets/backend/backend/js/scripts.js"></script>
+    <script src="/assets/backend/backend/js/scripts.js"></script>
     <!-- custom script for this page-->
-    <script src="assets/backend/backend/js/sparkline-chart.js"></script>
-    <script src="assets/backend/backend/js/easy-pie-chart.js"></script>
-    <script src="assets/backend/backend/js/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="assets/backend/backend/js/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="assets/backend/backend/js/xcharts.min.js"></script>
-    <script src="assets/backend/backend/js/jquery.autosize.min.js"></script>
-    <script src="assets/backend/backend/js/jquery.placeholder.min.js"></script>
-    <script src="assets/backend/backend/js/gdp-data.js"></script>
-    <script src="assets/backend/backend/js/morris.min.js"></script>
-    <script src="assets/backend/backend/js/sparklines.js"></script>
-    <script src="assets/backend/backend/js/charts.js"></script>
-    <script src="assets/backend/backend/js/jquery.slimscroll.min.js"></script>
+    <script src="/assets/backend/backend/js/sparkline-chart.js"></script>
+    <script src="/assets/backend/backend/js/easy-pie-chart.js"></script>
+    <script src="/assets/backend/backend/js/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="/assets/backend/backend/js/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="/assets/backend/backend/js/xcharts.min.js"></script>
+    <script src="/assets/backend/backend/js/jquery.autosize.min.js"></script>
+    <script src="/assets/backend/backend/js/jquery.placeholder.min.js"></script>
+    <script src="/assets/backend/backend/js/gdp-data.js"></script>
+    <script src="/assets/backend/backend/js/morris.min.js"></script>
+    <script src="/assets/backend/backend/js/sparklines.js"></script>
+    <script src="/assets/backend/backend/js/charts.js"></script>
+    <script src="/assets/backend/backend/js/jquery.slimscroll.min.js"></script>
     <script>
       //knob
       $(function() {

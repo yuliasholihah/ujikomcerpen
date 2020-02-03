@@ -48,7 +48,7 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="./index">Home</a></li>
+                                    <li><a href="/">Home</a></li>
                                     {{-- <li><a href="#">Pages</a>
                                         <ul class="dropdown">
                                             <li><a href="index.blade.php">Home</a></li>
@@ -391,7 +391,7 @@
                         <div class="single-widget-area mb-30">
                             <!-- Title -->
                             <div class="widget-title">
-                                <h6>Latest Posts</h6>
+                                <h6>Judul Terbaru</h6>
                             </div>
 
                             <!-- Single Latest Posts -->

@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Kategori;
 
-class FrontendController extends Controller
+
+class KategoriController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,13 +15,10 @@ class FrontendController extends Controller
      */
     public function index()
     {
-      //  $artikel = Artikel::with('kategori','tag','user')->get();
-        return view('index', compact(''));
+        $kategori = Kategori::orderBy('created_at','desc')->get();
+        return view('kategori.index', compact('kategori'));
     }
-     public function about(){
 
-         return view('about');
-     }
     /**
      * Show the form for creating a new resource.
      *
@@ -27,7 +26,8 @@ class FrontendController extends Controller
      */
     public function create()
     {
-        //
+
+        return view ('kategori.create');
     }
 
     /**
@@ -38,7 +38,12 @@ class FrontendController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        $kategori = new Kategori();
+        $kategori->nm_kategori = $request->nm_kategori;
+        $kategori->save();
+
+        return redirect()->route('kategori.index');
     }
 
     /**
@@ -60,8 +65,10 @@ class FrontendController extends Controller
      */
     public function edit($id)
     {
-        //
+        $kategori = Kategori::findOrfail($id);
+        return view('kategori.edit',compact('kategori'));
     }
+
     /**
      * Update the specified resource in storage.
      *
@@ -71,7 +78,11 @@ class FrontendController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $kategori = Kategori::findOrfail($id);
+        $kategori->nm_kategori = $request->nm_kategori;
+        $kategori->save();
+
+        return redirect()->route('kategori.index');
     }
 
     /**
@@ -81,7 +92,8 @@ class FrontendController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
-    {
-        //
+    {  $kategori = Kategori::findOrfail($id);
+        if(!Kategori::destroy($id)) return redirect()->back();
+        return redirect()->route('kategori.index');
     }
 }
