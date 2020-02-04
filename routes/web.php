@@ -45,5 +45,6 @@ function () {
 
     route::resource('kategori','KategoriController');
     route::resource('penulis','PenulisController');
+    route::resource('cerpen','CerpenController');
 }
 );

@@ -304,12 +304,13 @@
           <li class="sub-menu">
             <a href="javascript:;" class="">
                           <i class="icon_table"></i>
-                          <span>Tables</span>
+                          <span>Lihat Tabel</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
               <li><a class="" href="/admin/kategori">Kategori</a></li>
               <li><a class="" href="/admin/penulis">Penulis</a></li>
+              <li><a class="" href="/admin/cerpen">Cerpen Detail</a></li>
             </ul>
           </li>
 

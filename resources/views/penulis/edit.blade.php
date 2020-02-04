@@ -22,6 +22,10 @@
                                 <input class="form-control" type="text" name="alamat" id="" value="{{$penulis->alamat}}">
                             </div>
                             <div class="form-group">
+                                <label for="">No Telpon</label>
+                                <input class="form-control" type="text" name="no_telp" id="" value="{{$penulis->no_telp}}">
+                            </div>
+                            <div class="form-group">
                                 <button type="submit" class="btn btn-outline-info">
                                     Simpan Data
                                 </button>

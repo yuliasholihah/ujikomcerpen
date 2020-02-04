@@ -39,6 +39,7 @@ class PenulisController extends Controller
         $penulis = new Penulis();
         $penulis->nm_penulis = $request->nm_penulis;
         $penulis->alamat= $request->alamat;
+        $penulis->no_telp= $request->no_telp;
         $penulis->save();
 
         return redirect()->route('penulis.index');
@@ -79,6 +80,8 @@ class PenulisController extends Controller
 
         $penulis = Penulis::findOrfail($id);
         $penulis->nm_penulis = $request->nm_penulis;
+        $penulis->alamat = $request->alamat;
+        $penulis->no_telp = $request->no_telp;
         $penulis->save();
 
         return redirect()->route('penulis.index');

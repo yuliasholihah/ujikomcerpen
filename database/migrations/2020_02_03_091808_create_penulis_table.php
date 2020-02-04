@@ -17,6 +17,7 @@ class CreatePenulisTable extends Migration
             $table->bigIncrements('id');
             $table->String('nm_penulis');
             $table->String('alamat');
+            $table->string('no_telp');
             $table->timestamps();
         });
     }

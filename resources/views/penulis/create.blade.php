@@ -21,6 +21,10 @@
                                 <input class="form-control" type="text" name="alamat" id="">
                             </div>
                             <div class="form-group">
+                                <label for="">No Telpon</label>
+                                <input class="form-control" type="text" name="no_telp" id="">
+                            </div>
+                            <div class="form-group">
                                 <button type="submit" class="btn btn-outline-info">
                                     Simpan Data
                                 </button>

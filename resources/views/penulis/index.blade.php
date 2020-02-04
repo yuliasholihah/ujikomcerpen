@@ -17,6 +17,7 @@
                             <tr>
                                 <th>Nama penulis</th>
                                 <th>Alamat</th>
+                                <th>No Telpon</th>
                                 <th style="text-align: center;">Aksi</th>
                             </tr>
                         </thead>
@@ -25,6 +26,7 @@
                             <tr>
                                 <td>{{$data->nm_penulis}}</td>
                                 <td>{{$data->alamat}}</td>
+                                <td>{{$data->no_telp}}</td>
 
 								<td style="text-align: center;">
                                     <form action="{{route('penulis.destroy', $data->id)}}" method="post">
