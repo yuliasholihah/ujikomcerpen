@@ -66,11 +66,11 @@
 
 					<div class="text-center w-full p-t-115">
 						<span class="txt1">
-							Tidak Ingat Akun?
+
 						</span>
 
 						<a class="txt1 bo1 hov1" href="./register">
-							Register
+
 						</a>
 					</div>
 				</form>

@@ -47,9 +47,9 @@
                                             </p>
                                         @endif
                                         <input class="form-control
-                                        @error('foto') is-invalid @enderror" type="file"
+                                        @error('gambar') is-invalid @enderror" type="file"
                                         name="gambar" id="" value="{{$cerpen->gambar}}">
-                                        @error('foto')
+                                        @error('gambar')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{$message}}</strong>
                                         </span>

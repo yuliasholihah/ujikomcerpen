@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 use App\Kategori;
 use App\Cerpen;
 use App\Penulis;
@@ -45,23 +46,21 @@ class CerpenController extends Controller
         $cerpen = new Cerpen();
         $cerpen->judul = $request->judul;
 
-        // foto
-        if ($request->hasFile('foto')) {
-            $file = $request->file('foto');
+        // gambar
+        if ($request->hasFile('gambar')) {
+            $file = $request->file('gambar');
             $path = public_path() .'/assets/img/cerpen';
-            $filename = str_random(6) . '_'
+            $filename = Str::random(6) . '_'
             . $file->getClientOriginalName();
             $upload = $file->move(
                 $path,$filename
             );
             $cerpen->gambar = $filename;
-            $cerpen->konten = $request->konten;
-            $cerpen->id_kategori = $request->id_kategori;
-            $cerpen->id_penulis = $request->id_penulis;
         }
+        $cerpen->konten = $request->konten;
+        $cerpen->id_kategori = $request->id_kategori;
+        $cerpen->id_penulis = $request->id_penulis;
         $cerpen->save();
-        $cerpen->kategori()->attach($request->kategori);
-        $cerpen->penulis()->attach($request->penulis);
         return redirect()->route('cerpen.index');
     }
 
@@ -104,18 +103,18 @@ class CerpenController extends Controller
         $cerpen = Cerpen::findOrFail($id);
         $cerpen->judul = $request->judul;
 
-        // foto
-        if ($request->hasFile('foto')) {
-            $file = $request->file('foto');
+        // gambar
+        if ($request->hasFile('gambar')) {
+            $file = $request->file('gambar');
             $path = public_path() .'/assets/img/cerpen/';
-            $filename = str_random(6) . '_'
+            $filename = Str::random(6) . '_'
             . $file->getClientOriginalName();
             $uploadSuccess = $file->move(
                 $path,$filename
             );
-            // hapus foto lama jika ada
+            // hapus gambar lama jika ada
             if ($cerpen->gambar) {
-                $old_foto = $cerpen->gambar;
+                $old_gambar = $cerpen->gambar;
                 $filepath = public_path() .
                     '/assets/img/cer$cerpen/' .
                     $cerpen->gambar;
@@ -130,9 +129,10 @@ class CerpenController extends Controller
             $cerpen->id_kategori = $request->id_kategori;
             $cerpen->id_penulis = $request->id_penulis;
         }
+            $cerpen->id_kategori = $request->id_kategori;
+            $cerpen->id_penulis = $request->id_penulis;
             $cerpen->save();
-            $cerpen->kategori()->sync($request->kategori);
-            $cerpen->penulis()->sync($request->penulis);
+
 
             return redirect()->route('cerpen.index');
     }
@@ -147,8 +147,10 @@ class CerpenController extends Controller
     public function destroy($id)
     {
         $cerpen = Cerpen::findOrFail($id);
-        if ($cerpen->foto) {
-            $old_foto = $cerpen->gambar;
+        $kategori = Kategori::findOrFail($id);
+        $penulis = Penulis::findOrFail($id);
+        if ($cerpen->gambar) {
+            $old_gambar = $cerpen->gambar;
             $filepath = public_path()
             . '/assets/img/cerpen/' . $cerpen->gambar;
             try {
@@ -157,8 +159,7 @@ class CerpenController extends Controller
                 // file sudah dihapus/tidak ada
             }
         }
-        $cerpen->kategori()->detach($cerpen->id);
-        $cerpen->penulis()->detach($cerpen->id);
+
         $cerpen->delete();
 
         return redirect()->route('cerpen.index');

@@ -88,7 +88,7 @@
                                     <li><a href="./about">About</a></li>
                                     <li><a href="./kontak">Contact</a></li>
                                     <li><a href="login">Login</a></li>
-                                    <li><a href="register">Register</a></li>
+                                    {{-- <li><a href="register">Register</a></li> --}}
                                 </ul>
 
                                 <!-- Search Form -->

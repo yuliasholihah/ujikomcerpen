@@ -40,9 +40,9 @@
                                     <div class="form-group">
                                         <label for="">Gambar</label>
                                         <input class="form-control
-                                        @error('foto') is-invalid @enderror" type="file"
+                                        @error('gambar') is-invalid @enderror" type="file"
                                         name="gambar" id="" required>
-                                        @error('foto')
+                                        @error('gambar')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{$message}}</strong>
                                         </span>

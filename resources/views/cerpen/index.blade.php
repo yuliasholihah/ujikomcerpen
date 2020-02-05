@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-12">
             <div class="card">
-                <h5 class="card-header">Data cerpen</h5><br>
+                <h5 class="card-header"><center>Data cerpen</center></h5><br>
                 <center>
                         <a href="{{ route('cerpen.create') }}"
                             class="la la-cloud-upload btn btn-info btn-rounded btn-floating btn-outline">&nbsp;Tambah Data
