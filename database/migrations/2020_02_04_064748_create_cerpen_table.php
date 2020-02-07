@@ -15,9 +15,9 @@ class CreateCerpenTable extends Migration
     {
         Schema::create('cerpens', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->String('judul');
-            $table->String('gambar');
-            $table->String('konten');
+            $table->string('judul');
+            $table->string('gambar');
+            $table->text('konten');
             $table->unsignedBigInteger('id_kategori');
             $table->foreign('id_kategori')->references('id')->on('kategori')->onDelete('cascade');
             $table->unsignedBigInteger('id_penulis');

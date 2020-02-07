@@ -87,7 +87,7 @@
                                     </li>
                                     <li><a href="./about">About</a></li>
                                     <li><a href="./kontak">Contact</a></li>
-                                    <li><a href="login">Login</a></li>
+                                    {{-- <li><a href="login">Login</a></li> --}}
                                     {{-- <li><a href="register">Register</a></li> --}}
                                 </ul>
 
@@ -100,13 +100,7 @@
                                 </div>
 
                                 <!-- Social Button -->
-                                <div class="top-social-info">
-                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="RSS Feed"><i class="fa fa-rss" aria-hidden="true"></i></a>
-                                </div>
+
 
                             </div>
                             <!-- Nav End -->

@@ -125,10 +125,10 @@ class CerpenController extends Controller
                 }
             }
             $cerpen->gambar = $filename;
-            $cerpen->konten = $request->konten;
+        }
+        $cerpen->konten = $request->konten;
             $cerpen->id_kategori = $request->id_kategori;
             $cerpen->id_penulis = $request->id_penulis;
-        }
             $cerpen->id_kategori = $request->id_kategori;
             $cerpen->id_penulis = $request->id_penulis;
             $cerpen->save();

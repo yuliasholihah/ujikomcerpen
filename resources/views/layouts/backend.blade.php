@@ -34,6 +34,11 @@
   <link href="/assets/backend/backend/css/style-responsive.css" rel="stylesheet" />
   <link href="/assets/backend/backend/css/xcharts.min.css" rel=" stylesheet">
   <link href="/assets/backend/backend/css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+  <script src="/assets/backend/ckeditor/ckeditor.js"></script>
+
+    <script>
+        CKEDITOR.replace('texteditor');
+    </script>
   <!-- =======================================================
     Theme Name: NiceAdmin
     Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
@@ -397,6 +402,7 @@
       $(function() {
         $('select.styled').customSelect();
       });
+
 
       /* ---------- Map ---------- */
       $(function() {
