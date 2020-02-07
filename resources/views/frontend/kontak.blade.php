@@ -140,7 +140,7 @@
                 <div class="col-12 col-lg-6">
                     <div class="contact-content mb-100">
                         <h4>Kontak kami</h4>
-                        <p>Apabila ada masukan atau kritik atau mungkin ada ketidaknyamanan anda bisa menghubungi nomor dibawah ini atau email dibawah ini . Terima Kasih.</p>
+                        <p>Apabila ada kritik atau saran dan mungkin ada ketidaknyamanan anda bisa menghubungi nomor dibawah ini atau email dibawah ini . Terima Kasih.</p>
                         <!-- Single Contact Info -->
                         <div class="single-contact-info">
                             <h6>Lokasi:</h6>
@@ -168,78 +168,11 @@
     </section>
     <!-- ##### Contact Area End ##### -->
 
-    <!-- ##### Instagram Area Start ##### -->
-    <div class="follow-us-instagram">
-        <div class="instagram-content d-flex flex-wrap align-items-center">
 
-            <!-- Single Instagram Slide -->
-            <div class="single-instagram">
-                <img src="assets/frontend/img/blog-img/insta1.jpg" alt="">
-                <a href="#"><i class="fa fa-instagram"></i></a>
-            </div>
-
-            <!-- Single Instagram Slide -->
-            <div class="single-instagram">
-                <img src="assets/frontend/img/blog-img/insta2.jpg" alt="">
-                <a href="#"><i class="fa fa-instagram"></i></a>
-            </div>
-
-            <!-- Single InstagramSlide -->
-            <div class="single-instagram">
-                <img src="assets/frontend/img/blog-img/insta3.jpg" alt="">
-                <a href="#"><i class="fa fa-instagram"></i></a>
-            </div>
-
-            <!-- Single Instagram Slide -->
-            <div class="single-instagram">
-                <img src="assets/frontend/img/blog-img/insta4.jpg" alt="">
-                <a href="#"><i class="fa fa-instagram"></i></a>
-            </div>
-
-            <!-- Single Instagram Slide -->
-            <div class="single-instagram">
-                <img src="assets/frontend/img/blog-img/insta5.jpg" alt="">
-                <a href="#"><i class="fa fa-instagram"></i></a>
-            </div>
-
-            <!-- Single Instagram Slide -->
-            <div class="single-instagram">
-                <img src="assets/frontend/img/blog-img/insta6.jpg" alt="">
-                <a href="#"><i class="fa fa-instagram"></i></a>
-            </div>
-
-            <!-- Single Instagram Slide -->
-            <div class="single-instagram">
-                <img src="assets/frontend/img/blog-img/insta7.jpg" alt="">
-                <a href="#"><i class="fa fa-instagram"></i></a>
-            </div>
-
-            <!-- Single Instagram Slide -->
-            <div class="single-instagram">
-                <img src="assets/frontend/img/blog-img/insta8.jpg" alt="">
-                <a href="#"><i class="fa fa-instagram"></i></a>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Instagram Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Footer Social Info -->
-                    <div class="footer-social-info d-flex align-items-center justify-content-between">
-                        <a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-                        <a href="#"><i class="fa fa-twitter"></i><span>Twitter</span></a>
-                        <a href="#"><i class="fa fa-google-plus"></i><span>Google +</span></a>
-                        <a href="#"><i class="fa fa-linkedin"></i><span>linkedin</span></a>
-                        <a href="#"><i class="fa fa-instagram"></i><span>Instagram</span></a>
-                        <a href="#"><i class="fa fa-vimeo"></i><span>Vimeo</span></a>
-                        <a href="#"><i class="fa fa-youtube"></i><span>Youtube</span></a>
-                    </div>
-                </div>
-            </div>
 
             <div class="row">
                 <div class="col-12">

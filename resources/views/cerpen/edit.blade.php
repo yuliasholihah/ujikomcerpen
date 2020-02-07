@@ -55,7 +55,7 @@
                                         </span>
                                         @enderror
                                     </div>
-                                    <div class="form-group">
+                                    {{-- <div class="form-group">
                                             <label for="">Konten</label>
                                             <textarea class="form-control
                                             @error('konten') is-invalid @enderror"
@@ -66,7 +66,13 @@
                                                 <strong>{{$message}}</strong>
                                             </span>
                                             @enderror
-                                        </div>
+                                        </div> --}}
+                                         <div class="form-group">
+                                    <label for="">Konten</label>
+                                   <textarea class="form-control ckeditor" name="konten" required>{{$cerpen->konten}}
+
+                                   </textarea>
+                                   </div>
 
                                     <div class="form-group">
                                         <label for="">Kategori</label>
