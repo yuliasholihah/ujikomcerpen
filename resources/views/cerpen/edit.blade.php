@@ -5,8 +5,8 @@
 
 @section('js')
     <script src="{{asset('assets/backend/assets/vendor/ckeditor/ckeditor.js')}}"></script>
-    <script src="{{asset('assets/backend/assets/vendor/select2/select2.min.js')}}"></script>
-    <script src="{{asset('assets/backend/assets/js/components/select2-init.js')}}"></script>
+    {{-- <script src="{{asset('assets/backend/assets/vendor/select2/select2.min.js')}}"></script>
+    <script src="{{asset('assets/backend/assets/js/components/select2-init.js')}}"></script> --}}
     <script>
         CKEDITOR.replace( 'editor1' );
     </script>
@@ -15,13 +15,14 @@
 @section('content')
 <section class="page-content container-fluid">
         <div class="row">
-            <div class="col-12">
+            <div class="col-lg-8">
                 <div class="card">
                         <center>
                                 <div class="card-header">Edit Konten Cerpen</div>
                             </center>
 
                             <div class="card-body">
+
                                 <form action="{{route('cerpen.update', $cerpen->id)}}" method="post" enctype="multipart/form-data">
                                     <input type="hidden" name="_method" value="PATCH">
                                     {{csrf_field()}}

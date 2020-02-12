@@ -30,7 +30,7 @@
                     <nav class="classy-navbar justify-content-between" id="nikkiNav">
 
                         <!-- Nav brand -->
-                        <a href="index.blade.php" class="nav-brand"><img src="assets/frontend/img/core-img/c.png" alt=""></a>
+                        <a href="/" class="nav-brand"><img src="assets/frontend/img/core-img/c.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -62,7 +62,7 @@
                                     <li><a href="#">Kategori</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="#">- cerpen horor</a></li>
+                                                <li><a href="./horor">- cerpen horor</a></li>
                                                 <li><a href="#">- cerpen humoris</a></li>
                                                 <li><a href="#">- cerpen romantis</a></li>
                                                 <li><a href="#">- cerpen pendidikan</a></li>
@@ -353,7 +353,7 @@
                             </div>
                             <!-- Thumbnail -->
                             <div class="about-thumbnail">
-                                <img src="assets/frontend/img/blog-img/about-mee.jpg" alt="">
+                                <img src="assets/frontend/img/blog-img/c.png" alt="">
                             </div>
                             <!-- Content -->
                             <div class="widget-content text-center">
@@ -372,12 +372,7 @@
                             <!-- Widget Social Info -->
                             <div class="widget-social-info text-center">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-pinterest"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-rss"></i></a>
                             </div>
                         </div>
 
@@ -470,7 +465,7 @@
                             </div>
                             <!-- Tags -->
                             <ol class="popular-tags d-flex flex-wrap">
-                                <li><a href="#">Horor</a></li>
+                                <li><a href="./horor">Horor</a></li>
                                 <li><a href="#">Humoris</a></li>
                                 <li><a href="#">Persahabatan</a></li>
                                 <li><a href="#">Religi</a></li>

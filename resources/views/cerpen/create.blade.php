@@ -1,14 +1,14 @@
 @extends('layouts.backend')
 @section('css')
-    <link rel="stylesheet" href="{{asset('assets/backend/assets/vendor/select2/select2.min.css')}}">
+    {{-- <link rel="stylesheet" href="{{asset('assets/backend/assets/vendor/select2/select2.min.css')}}"> --}}
 @endsection
 
 @section('js')
     <script src="{{asset('assets/backend/assets/vendor/ckeditor/ckeditor.js')}}"></script>
-    <script src="{{asset('assets/backend/assets/vendor/select2/select2.min.js')}}"></script>
+    {{-- <script src="{{asset('assets/backend/assets/vendor/select2/select2.min.js')}}"></script>
     <script src="{{asset('assets/backend/assets/js/components/select2-init.js')}}"></script>
     <script src="{{asset('assets/backend/assets/vendor/select2/select2.min.js')}}"></script>
-    <script src="{{asset('assets/backend/assets/js/components/select2-init.js')}}"></script>
+    <script src="{{asset('assets/backend/assets/js/components/select2-init.js')}}"></script> --}}
     <script>
         CKEDITOR.replace( 'editor1' );
     </script>
@@ -17,7 +17,7 @@
 @section('content')
 <section class="page-content container-fluid">
         <div class="row">
-            <div class="col-12">
+            <div class="col-lg-8">
                 <div class="card">
                         <center>
                                 <div class="card-header">Tambah Konten Cerpen</div>
@@ -93,6 +93,7 @@
                                     </div>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
