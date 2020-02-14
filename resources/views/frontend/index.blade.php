@@ -128,66 +128,31 @@
         </div>
 
         <div class="hero-post-slides owl-carousel">
-
+          @foreach ($cerpen as $data)
             <!-- Single Hero Post -->
             <div class="single-hero-post d-flex flex-wrap">
                 <!-- Post Thumbnail -->
-                <div class="slide-post-thumbnail h-100 bg-img" style="background-image: url(assets/frontend/img/blog-img/masasma.png);"></div>
-                <!-- Post Content -->
+
+                <div class="slide-post-thumbnail h-100 bg-img"><img class="background-image" src="../assets/img/cerpen/{{$data->gambar}}"></div><!-- Post Content -->
                 <div class="slide-post-content h-100 d-flex align-items-center">
                     <div class="slide-post-text">
-                        <p class="post-date" data-animation="fadeIn" data-delay="100ms">Cerpen Romantis</p>
+                        <p class="post-date" data-animation="fadeIn" data-delay="100ms">Ditulis oleh :{{$data->penulis->nm_penulis}} / {{$data->kategori->nm_kategori}}</p>
                         <a href="#" class="post-title" data-animation="fadeIn" data-delay="300ms">
-                            <h2>Masa SMA Kitaa..</h2>
+                             <h2>{{$data->judul}}</h2>
                         </a>
-                        <p class="post-excerpt" data-animation="fadeIn" data-delay="500ms">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                        <p class="post-excerpt" data-animation="fadeIn" data-delay="500ms">AYOOO BACA KESERUANNYA!</p>
                         <a href="#" class="btn nikki-btn" data-animation="fadeIn" data-delay="700ms">Baca Yuuuuk!</a>
                     </div>
                     <!-- Page Count -->
                     <div class="page-count"></div>
                 </div>
             </div>
-
-            <!-- Single Hero Post -->
-            <div class="single-hero-post d-flex flex-wrap">
-                <!-- Post Thumbnail -->
-                <div class="slide-post-thumbnail h-100 bg-img" style="background-image: url(assets/frontend/img/blog-img/ibutiri.jpg);"></div>
-                <!-- Post Content -->
-                <div class="slide-post-content h-100 d-flex align-items-center">
-                    <div class="slide-post-text">
-                        <p class="post-date" data-animation="fadeIn" data-delay="100ms">Cerpen Mengharukan</p>
-                        <a href="#" class="post-title" data-animation="fadeIn" data-delay="300ms">
-                            <h2>Sang Ibu Tirii</h2>
-                        </a>
-                        <p class="post-excerpt" data-animation="fadeIn" data-delay="500ms">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                        <a href="#" class="btn nikki-btn" data-animation="fadeIn" data-delay="700ms">Baca Yuuuuk!</a>
-                    </div>
-                    <!-- Page Count -->
-                    <div class="page-count"></div>
-                </div>
-            </div>
-
-            <!-- Single Hero Post -->
-            <div class="single-hero-post d-flex flex-wrap">
-                <!-- Post Thumbnail -->
-                <div class="slide-post-thumbnail h-100 bg-img" style="background-image: url(assets/frontend/img/blog-img/kiam.gif);"></div>
-                <!-- Post Content -->
-                <div class="slide-post-content h-100 d-flex align-items-center">
-                    <div class="slide-post-text">
-                        <p class="post-date" data-animation="fadeIn" data-delay="100ms">Cerpen Religi</p>
-                        <a href="#" class="post-title" data-animation="fadeIn" data-delay="300ms">
-                            <h2>Kiamat Sudah Dekat...</h2>
-                        </a>
-                        <p class="post-excerpt" data-animation="fadeIn" data-delay="500ms">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                        <a href="#" class="btn nikki-btn" data-animation="fadeIn" data-delay="700ms">Baca Yuuuuk!</a>
-                    </div>
-                    <!-- Page Count -->
-                    <div class="page-count"></div>
-                </div>
-            </div>
-
+            @endforeach
         </div>
     </section>
+
+
+
     <!-- ##### Hero Area End ##### -->
 
     <!-- ##### Blog Content Area Start ##### -->
@@ -367,7 +332,7 @@
                         <div class="single-widget-area mb-30">
                             <!-- Title -->
                             <div class="widget-title">
-                                <h6>Subscribe &amp; Follow</h6>
+                                <h6> Please Follow</h6>
                             </div>
                             <!-- Widget Social Info -->
                             <div class="widget-social-info text-center">
